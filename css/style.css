@@ -1,0 +1,41 @@
+body{
+    background-color: #ADB6C4;
+    scroll-behavior: auto;
+}
+.img-custom{
+    width: 100vw;
+    height: 50vh;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+}
+.card-custom{
+    height: 25vw;
+    border: black solid 1px;
+}
+ /* Style inputs */
+ input[type=text], select, input[type=tel] {
+    /* width: 100%; */
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  /* Style the submit button */
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Add a background color to the submit button on mouse-over */
+  input[type=submit]:hover {
+    background-color: #45a049;
+  } 
